@@ -1,0 +1,26 @@
+.navBar {
+  width: 50%;
+  height: 100%;
+}
+
+.navListItems {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  height: 100%;
+}
+
+.navListItem {
+  min-width: max-content;
+  font-size: 12px;
+  list-style: none;
+  align-self: center;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navListItemActive {
+  background: var(--gray2);
+}

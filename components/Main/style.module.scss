@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 720px;
+  min-height: 500px;
+  margin: auto;
+  padding-block: 30px;
+  gap: 1rem;
+}

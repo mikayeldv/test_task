@@ -1,0 +1,37 @@
+.searchCountries {
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+}
+
+.searchCountry {
+  width: 100%;
+  border: none;
+  background: var(--gray2);
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 9px;
+  left: 5px;
+}
+
+.searchDropDownBlock {
+  width: 100%;
+  max-height: 370px;
+  position: absolute;
+  z-index: 10;
+  overflow-y: scroll;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding-block: 10px;
+}
+
+.searchDropDownItem {
+  width: 100%;
+  min-height: 50px;
+}

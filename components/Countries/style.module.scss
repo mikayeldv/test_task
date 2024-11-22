@@ -1,0 +1,45 @@
+.countriesBlock {
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.countries {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-block: 10px;
+  gap: 7px;
+}
+
+.countriesTitle {
+  width: 100%;
+  font-weight: 600;
+}
+
+.countryBtn {
+  width: 100%;
+  border: none;
+  background: #2e2f32;
+  color: #fff;
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.countryBtn:hover {
+  background: #19191a;
+  transition: 0.3s;
+}
+
+.countryBtn:active {
+  background: #000;
+  transition: 0s;
+}

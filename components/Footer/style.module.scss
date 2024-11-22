@@ -1,0 +1,70 @@
+.footer {
+  width: 100%;
+  height: 216px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 10px;
+  margin: auto;
+}
+
+.footerLeft {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footerLogoBlock {
+  width: 100px;
+  height: 22%;
+  align-self: flex-start;
+  position: relative;
+  left: 45px;
+}
+
+.footerStoreBlock {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerStore {
+  width: 45%;
+  height: 100%;
+  position: relative;
+}
+
+.footerStoreImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+
+.footerRight {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+.footerSubTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footerLink {
+  font-size: 14px;
+}

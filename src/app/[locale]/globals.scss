@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray1: #F7F7F7;
+  --gray2: #0000000F;
+}
+
+body {
+  width: 100%;
+  background: var(--gray1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+li,
+button,
+input,
+textarea,
+b {
+  font-family: inherit;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
